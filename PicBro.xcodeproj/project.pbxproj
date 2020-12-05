@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74CFFED24E7AAEE000593BE /* Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D74CFFEC24E7AAEE000593BE /* Extensions.m */; };
+		D74CFFF024E7C888000593BE /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D74CFFEF24E7C888000593BE /* MainCell.m */; };
+		D763587924E6BD4800E2D891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D763587824E6BD4800E2D891 /* AppDelegate.m */; };
+		D763587C24E6BD4800E2D891 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D763587B24E6BD4800E2D891 /* SceneDelegate.m */; };
+		D763587F24E6BD4800E2D891 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D763587E24E6BD4800E2D891 /* MainViewController.m */; };
+		D763588424E6BD4E00E2D891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D763588324E6BD4E00E2D891 /* Assets.xcassets */; };
+		D763588724E6BD4E00E2D891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D763588524E6BD4E00E2D891 /* LaunchScreen.storyboard */; };
+		D763588A24E6BD4E00E2D891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D763588924E6BD4E00E2D891 /* main.m */; };
+		D77E26A624EB810400F835B8 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D77E26A524EB810300F835B8 /* ImageManager.m */; };
+		D782BD2F24EA049B0027C5A3 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D782BD2E24EA049B0027C5A3 /* Presenter.m */; };
+		D7C9626D257B35EC001B1D42 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7C9626C257B35EB001B1D42 /* api.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D74CFFEB24E7AAEE000593BE /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
+		D74CFFEC24E7AAEE000593BE /* Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extensions.m; sourceTree = "<group>"; };
+		D74CFFEE24E7C888000593BE /* MainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		D74CFFEF24E7C888000593BE /* MainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		D763587424E6BD4800E2D891 /* PicBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D763587724E6BD4800E2D891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D763587824E6BD4800E2D891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D763587A24E6BD4800E2D891 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D763587B24E6BD4800E2D891 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D763587D24E6BD4800E2D891 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D763587E24E6BD4800E2D891 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D763588324E6BD4E00E2D891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D763588624E6BD4E00E2D891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D763588824E6BD4E00E2D891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D763588924E6BD4E00E2D891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D77E26A424EB810300F835B8 /* ImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		D77E26A524EB810300F835B8 /* ImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		D782BD2D24EA049B0027C5A3 /* Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		D782BD2E24EA049B0027C5A3 /* Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		D7C9626C257B35EB001B1D42 /* api.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = api.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D763587124E6BD4700E2D891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74CFFEA24E7A937000593BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D74CFFEB24E7AAEE000593BE /* Extensions.h */,
+				D74CFFEC24E7AAEE000593BE /* Extensions.m */,
+				D782BD2D24EA049B0027C5A3 /* Presenter.h */,
+				D782BD2E24EA049B0027C5A3 /* Presenter.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D763586B24E6BD4700E2D891 = {
+			isa = PBXGroup;
+			children = (
+				D763587624E6BD4800E2D891 /* PicBro */,
+				D763587524E6BD4800E2D891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D763587524E6BD4800E2D891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D763587424E6BD4800E2D891 /* PicBro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D763587624E6BD4800E2D891 /* PicBro */ = {
+			isa = PBXGroup;
+			children = (
+				D76358B124E7764B00E2D891 /* Model */,
+				D76358B224E7767E00E2D891 /* View */,
+				D76358B024E7763E00E2D891 /* Controller */,
+				D74CFFEA24E7A937000593BE /* Utils */,
+				D763587724E6BD4800E2D891 /* AppDelegate.h */,
+				D763587824E6BD4800E2D891 /* AppDelegate.m */,
+				D763587A24E6BD4800E2D891 /* SceneDelegate.h */,
+				D763587B24E6BD4800E2D891 /* SceneDelegate.m */,
+				D763588324E6BD4E00E2D891 /* Assets.xcassets */,
+				D763588524E6BD4E00E2D891 /* LaunchScreen.storyboard */,
+				D763588824E6BD4E00E2D891 /* Info.plist */,
+				D763588924E6BD4E00E2D891 /* main.m */,
+				D7C9626C257B35EB001B1D42 /* api.plist */,
+			);
+			path = PicBro;
+			sourceTree = "<group>";
+		};
+		D76358B024E7763E00E2D891 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D763587D24E6BD4800E2D891 /* MainViewController.h */,
+				D763587E24E6BD4800E2D891 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D76358B124E7764B00E2D891 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D77E26A424EB810300F835B8 /* ImageManager.h */,
+				D77E26A524EB810300F835B8 /* ImageManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D76358B224E7767E00E2D891 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D74CFFEE24E7C888000593BE /* MainCell.h */,
+				D74CFFEF24E7C888000593BE /* MainCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D763587324E6BD4700E2D891 /* PicBro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D763588D24E6BD4E00E2D891 /* Build configuration list for PBXNativeTarget "PicBro" */;
+			buildPhases = (
+				D763587024E6BD4700E2D891 /* Sources */,
+				D763587124E6BD4700E2D891 /* Frameworks */,
+				D763587224E6BD4700E2D891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicBro;
+			productName = DromTask;
+			productReference = D763587424E6BD4800E2D891 /* PicBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D763586C24E6BD4700E2D891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = Motodolphin;
+				TargetAttributes = {
+					D763587324E6BD4700E2D891 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = D763586F24E6BD4700E2D891 /* Build configuration list for PBXProject "PicBro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D763586B24E6BD4700E2D891;
+			productRefGroup = D763587524E6BD4800E2D891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D763587324E6BD4700E2D891 /* PicBro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D763587224E6BD4700E2D891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D763588724E6BD4E00E2D891 /* LaunchScreen.storyboard in Resources */,
+				D7C9626D257B35EC001B1D42 /* api.plist in Resources */,
+				D763588424E6BD4E00E2D891 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D763587024E6BD4700E2D891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D763587F24E6BD4800E2D891 /* MainViewController.m in Sources */,
+				D763587924E6BD4800E2D891 /* AppDelegate.m in Sources */,
+				D74CFFF024E7C888000593BE /* MainCell.m in Sources */,
+				D782BD2F24EA049B0027C5A3 /* Presenter.m in Sources */,
+				D763588A24E6BD4E00E2D891 /* main.m in Sources */,
+				D763587C24E6BD4800E2D891 /* SceneDelegate.m in Sources */,
+				D74CFFED24E7AAEE000593BE /* Extensions.m in Sources */,
+				D77E26A624EB810400F835B8 /* ImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D763588524E6BD4E00E2D891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D763588624E6BD4E00E2D891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D763588B24E6BD4E00E2D891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = PicBro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = PicBro;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D763588C24E6BD4E00E2D891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = PicBro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = PicBro;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D763588E24E6BD4E00E2D891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973295K87L;
+				INFOPLIST_FILE = PicBro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.motodolphin.PicBro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D763588F24E6BD4E00E2D891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973295K87L;
+				INFOPLIST_FILE = PicBro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.motodolphin.PicBro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D763586F24E6BD4700E2D891 /* Build configuration list for PBXProject "PicBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D763588B24E6BD4E00E2D891 /* Debug */,
+				D763588C24E6BD4E00E2D891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D763588D24E6BD4E00E2D891 /* Build configuration list for PBXNativeTarget "PicBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D763588E24E6BD4E00E2D891 /* Debug */,
+				D763588F24E6BD4E00E2D891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D763586C24E6BD4700E2D891 /* Project object */;
+}
